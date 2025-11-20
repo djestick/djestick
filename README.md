@@ -46,9 +46,6 @@
 <!-- Profile Stats -->
 <img height="160" src="https://github-readme-stats.vercel.app/api?username=djestick&show_icons=true&theme=transparent&rank_icon=github" alt="GitHub Stats"/>
 
-<!-- Streak -->
-<img height="160" src="https://streak-stats.demolab.com?user=djestick&mode=weekly&theme=transparent" alt="Streak Stats"/>
-
 </div>
 
 
