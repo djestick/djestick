@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/djestick">
-    <img src="https://readme-typing-svg.herokuapp.com?duration=2500&pause=700&center=true&vCenter=true&width=650&lines=Born+on+31.01.2006;Graphic+Designer+%C2%B7+Figma+Enthusiast;Primary+language+—+TypeScript;Working+on+Promin`+Studio;Freelance+projects+always+open;Contact:+@djestick+(any+social+platform)" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.herokuapp.com?duration=2500&pause=700&center=true&vCenter=true&width=650&lines=Born+on+31.01.2006;Graphic+Designer+%C2%B7+Figma+Enthusiast;Freelance+projects+always+open;Contact:+@djestick+(any+social+platform)" alt="Typing SVG"/>
   </a>
 </p>
 
