@@ -163,14 +163,8 @@ body {
   position: relative;
   width: 50px;
   height: 50px;
-  border-radius: 14px;
+  border-radius: 16px;
   corner-shape: squircle;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 50 50' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='black' d='M25 0C7.5 0 0 7.5 0 25s7.5 25 25 25 25-7.5 25-25S42.5 0 25 0Z'/%3E%3C/svg%3E");
-  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 50 50' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='black' d='M25 0C7.5 0 0 7.5 0 25s7.5 25 25 25 25-7.5 25-25S42.5 0 25 0Z'/%3E%3C/svg%3E");
-  -webkit-mask-size: 100% 100%;
-  mask-size: 100% 100%;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -380,10 +374,8 @@ body {
   .social {
     width: 50px;
     height: 50px;
-    border-radius: 14px;
+    border-radius: 16px;
     corner-shape: squircle;
-    -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 50 50' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='black' d='M25 0C7.5 0 0 7.5 0 25s7.5 25 25 25 25-7.5 25-25S42.5 0 25 0Z'/%3E%3C/svg%3E");
-    mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 50 50' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='black' d='M25 0C7.5 0 0 7.5 0 25s7.5 25 25 25 25-7.5 25-25S42.5 0 25 0Z'/%3E%3C/svg%3E");
   }
   .social img,
   .social svg {
