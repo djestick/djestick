@@ -3,164 +3,255 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>@djestick - Links</title>
+    
+    <!-- Premium SEO Optimization -->
+    <title>Sviatoslav | @djestick - Portfolio & Link Hub</title>
     <meta
       name="description"
-      content="All links for @djestick: GitHub, Instagram, Discord, Twitch, YouTube, TikTok, Telegram, Snapchat, Spotify, Mono."
+      content="Персональний сайт-портфоліо та хаб посилань Святослава (@djestick). Досліджуйте унікальні проекти: Promin Folder, IRL Advancement, VatraManager, а також історію Vibe Coding."
     />
+    <meta name="keywords" content="djestick, Святослав, портфоліо, розробник, Vibe Coding, Promin Folder, VatraManager, IRL Advancement, ІІ асистент" />
+    <meta name="author" content="Sviatoslav (djestick)" />
+    
+    <!-- Open Graph Metadata for Social Previews -->
+    <meta property="og:title" content="Sviatoslav | @djestick - Portfolio & Link Hub" />
+    <meta property="og:description" content="Сучасний преміальний сайт-портфоліо та соціальний хаб Святослава (@djestick). Досліджуйте проекти та філософію Vibe Coding." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/djestick" />
+    <meta property="og:image" content="assets/design/Frame 2.webp" />
+
+    <!-- Favicon -->
     <link
       rel="icon"
       href="assets/e7fe06ee-a764-46c6-b61b-ad6252634b31_Dhcj4Nj2TVi22B2bkeN7-s2fnku5c091aB1jA.webp"
       type="image/webp"
     />
-    <link
-      rel="preload"
-      as="image"
-      href="assets/e7fe06ee-a764-46c6-b61b-ad6252634b31_Dhcj4Nj2TVi22B2bkeN7-s2fnku5c091aB1jA.webp"
-    />
-    <link
-      rel="preload"
-      as="image"
-      href="assets/hero-frames/frame_00000.png"
-    />
+    
+    <!-- Styles -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="bg"></div>
+    <!-- Flat Premium Navigation Bar -->
+    <header class="nav-header">
+      <div class="container nav-container">
+        <a href="#home" class="logo-brand">
+          djestick
+        </a>
+        <div class="nav-right">
+          <nav>
+            <ul class="nav-menu">
+              <li><a href="#biography" class="nav-link">Біографія</a></li>
+              <li><a href="#projects" class="nav-link">Проекти</a></li>
+              <li><a href="brandbook.html" class="nav-link">Брендбук</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-    <main class="page">
-      <section class="hero" aria-label="Hero">
-        <img
-          class="hero-frame"
-          src="assets/hero-frames/frame_00000.png"
-          alt=""
-          aria-hidden="true"
-        />
-        <div class="hero-shade" aria-hidden="true"></div>
-
-        <div class="container hero-content">
+    <!-- 1. FULLSCREEN HERO SECTION WITH CANVAS BACKGROUND -->
+    <section id="home" class="hero-wrapper">
+      <canvas id="hero-canvas"></canvas>
+      
+      <div class="hero-content">
+        <div class="avatar-container">
           <img
-            class="avatar"
+            class="avatar-image"
             src="assets/e7fe06ee-a764-46c6-b61b-ad6252634b31_Dhcj4Nj2TVi22B2bkeN7-s2fnku5c091aB1jA.webp"
-            alt="Avatar"
+            alt="Святослав"
             width="96"
             height="96"
           />
+        </div>
 
-          <h1 class="handle">@djestick</h1>
-          <p class="tagline">Hello World!</p>
+        <h1 class="handle-tag">@djestick</h1>
 
-          <nav class="socials" aria-label="Social links">
-            <a
-              class="social"
-              href="https://github.com/djestick"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-            >
-              <img src="assets/socials/github.png" alt="GitHub" />
-            </a>
-            <a
-              class="social"
-              href="https://www.instagram.com/djestick"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram"
-            >
-              <img src="assets/socials/ig.png" alt="Instagram" />
-            </a>
-            <a
-              class="social"
-              href="https://discord.com/users/891038625368793099"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Discord"
-            >
-              <img src="assets/socials/discord.png" alt="Discord" />
-            </a>
-            <a
-              class="social"
-              href="https://twitch.tv/djestick"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Twitch"
-            >
-              <img src="assets/socials/twich.png" alt="Twitch" />
-            </a>
-            <a
-              class="social"
-              href="https://youtube.com/@djestick"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="YouTube"
-            >
-              <img src="assets/socials/yt.png" alt="YouTube" />
-            </a>
-            <a
-              class="social"
-              href="https://tiktok.com/@djestick"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="TikTok"
-            >
-              <img src="assets/socials/tt.png" alt="TikTok" />
-            </a>
-            <a
-              class="social"
-              href="https://t.me/djestick"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Telegram"
-            >
-              <img src="assets/socials/tg.png" alt="Telegram" />
-            </a>
-            <a
-              class="social"
-              href="https://www.snapchat.com/add/djestick"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Snapchat"
-            >
-              <img src="assets/socials/snap.png" alt="Snapchat" />
-            </a>
-            <a
-              class="social"
-              href="https://open.spotify.com/user/31xc2pbp4c54yp4bxp3bgyo3h7c4"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Spotify"
-            >
-              <img src="assets/socials/spoty.png" alt="Spotify" />
-            </a>
-          </nav>
+        <!-- Squircle Social Media Link Cards -->
+        <div class="socials-glass-grid">
+          <a class="social-card" href="https://github.com/djestick" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <img src="assets/socials/github.png" alt="GitHub" />
+          </a>
+          
+          <a class="social-card" href="https://www.instagram.com/djestick" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="assets/socials/ig.png" alt="Instagram" />
+          </a>
+          
+          <a class="social-card" href="https://discord.com/users/891038625368793099" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+            <img src="assets/socials/discord.png" alt="Discord" />
+          </a>
+          
+          <a class="social-card" href="https://twitch.tv/djestick" target="_blank" rel="noopener noreferrer" aria-label="Twitch">
+            <img src="assets/socials/twich.png" alt="Twitch" />
+          </a>
+          
+          <a class="social-card" href="https://youtube.com/@djestick" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <img src="assets/socials/yt.png" alt="YouTube" />
+          </a>
+          
+          <a class="social-card" href="https://tiktok.com/@djestick" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <img src="assets/socials/tt.png" alt="TikTok" />
+          </a>
+          
+          <a class="social-card" href="https://t.me/djestick" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+            <img src="assets/socials/tg.png" alt="Telegram" />
+          </a>
+          
+          <a class="social-card" href="https://www.snapchat.com/add/djestick" target="_blank" rel="noopener noreferrer" aria-label="Snapchat">
+            <img src="assets/socials/snap.png" alt="Snapchat" />
+          </a>
+          
+          <a class="social-card" href="https://open.spotify.com/user/31xc2pbp4c54yp4bxp3bgyo3h7c4" target="_blank" rel="noopener noreferrer" aria-label="Spotify">
+            <img src="assets/socials/spoty.png" alt="Spotify" />
+          </a>
+        </div>
 
-          <section class="card mono ratio-16x9">
-            <a
-              class="glass-card"
-              href="https://send.monobank.ua/jar/6cSkmWzhNV"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Monobank Jar"
-            >
-              <div class="glass-text">
-                <span class="glass-line thin">Закинути</span>
-                <span class="glass-line bold">копійку</span>
-                <img
-                  class="glass-cursor"
-                  src="assets/1674666984_grizly-club-p-kursor-klipart-2.png"
-                  alt=""
-                />
+        <!-- Sleek Compact Monobank Jar Card -->
+        <a href="https://send.monobank.ua/jar/6cSkmWzhNV" target="_blank" rel="noopener noreferrer" class="mono-card-compact">
+          <div class="mono-card-compact-text">
+            <span class="mono-card-compact-title">Закинути копійку</span>
+            <span class="mono-card-compact-brand">mono</span>
+          </div>
+          <div class="mono-card-compact-graphic">
+            <img src="assets/kot.avif" alt="Mono Cat" class="mono-cat-compact" />
+            <img src="assets/1674666984_grizly-club-p-kursor-klipart-2.png" alt="Cursor" class="mono-cursor-compact" />
+          </div>
+        </a>
+      </div>
+
+      <!-- Scroll down indicator pushed down to bottom of 100vh container -->
+      <a href="#biography" class="scroll-cta" id="scrollCta">
+        <span>Досліджувати</span>
+        <img src="assets/design/6576090d28b3d82dddbe08e3_arrow down.webp" alt="Scroll Down" />
+      </a>
+    </section>
+
+    <!-- MAIN SINGLE PAGE SCROLL FLOW -->
+    <div class="main-content-flow">
+
+      <!-- 3. BIOGRAPHY TIMELINE SECTION -->
+      <section id="biography" class="section-padding">
+        <div class="container">
+          <h2 class="section-title center main-title text-center">Шлях Творця</h2>
+          <p class="timeline-intro">
+            Мій шлях у розробку — це постійний пошук між чистим креативом, кодом та новітніми технологіями штучного інтелекту. Від перших кроків у 2018 році до концепції повної свободи у вейп-кодингу.
+          </p>
+
+          <div class="timeline-track">
+            <!-- Node 2018 -->
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2018</span>
+                <h3 class="timeline-title">Перша іскра інтересу</h3>
+                <div class="timeline-text">
+                  <p>Усе почалося з палкого бажання зробити власну мобільну програму на телефон. Я не знав професійних мов розробки, але рішення знайшлося швидко — ноу-код конструктори.</p>
+                  <p>Саме завдяки ноу-код рішенням мені вдалося зібрати свій найперший мобільний браузер. Це було просте, але неймовірно надихаюче досягнення, яке змусило мене рухатися далі.</p>
+                </div>
               </div>
-              <img class="glass-cat" src="assets/kot.avif" alt="Cat" />
-              <span class="glass-brand">mono</span>
-            </a>
-          </section>
+            </div>
+
+            <!-- Node 2020 -->
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2020</span>
+                <h3 class="timeline-title">Занурення в JavaScript та Симулятор Банку</h3>
+                <div class="timeline-text">
+                  <p>Цей рік став переломним. Мені подарували паперову книгу «JavaScript для дітей». Я буквально «залип» у неї, захоплюючись тим, як логічні рядки коду оживають на екрані.</p>
+                  <p>Почав активно вивчати JS та створювати власні перші проекти. Моїм найбільшим успіхом того періоду став детальний Симулятор Банку, побудований на зв'язці Vanilla JavaScript та бази даних Firebase. Саме тоді почала формуватися моя любов до швидких реактивних стеків.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Node 2021-2022 -->
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2021 - 2022</span>
+                <h3 class="timeline-title">Figma Enthusiast & Video Making</h3>
+                <div class="timeline-text">
+                  <p>Я зрозумів, що хороший код ніщо без досконалого дизайну. У цей період я тимчасово зменшив кількість програмування, щоб з головою піти у світ візуального мистецтва.</p>
+                  <p>Став справжнім Figma Enthusiast, вивчав тонкощі UX/UI проектування, правила Pixel Perfect, а також захопився професійним монтажем та зйомкою відео. Цей досвід навчив мене бачити інтерфейси очима художника, що зараз допомагає створювати сайти преміального рівня.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Node 2023 -->
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2023</span>
+                <h3 class="timeline-title">Революція штучного інтелекту</h3>
+                <div class="timeline-text">
+                  <p>Поява ChatGPT змінила мій підхід до всього. Я увійшов у перший відсоток людей у світі, які почали щодня експериментувати з LLM-моделями.</p>
+                  <p>Я став фанатом великих мовних моделей, тестував кожну нову текстову модель, проводив власні експерименти з промпт-інженерінгом. Саме тоді я почав розробляти плагіни для Minecraft на Java та створювати перші сайти за допомогою ШІ-кодогенераторів, які на той час ще працювали дуже криво і вимагали від мене мільйонів ручних виправлень на JS.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Node 2025-2026 -->
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2025 - 2026</span>
+                <h3 class="timeline-title">Ера Vibe Coding & Мережа ІІ-Асистентів</h3>
+                <div class="timeline-text">
+                  <p>Сьогодні я повністю відмовився від ручного написання коду. Чому? Тому що настав час <strong>Vibe Coding</strong>. Я фокусуюся на архітектурі, ідеях та досконалому промпт-інженерінгу, довіряючи рутинний синтаксис штучному інтелекту.</p>
+                  <p>За останні роки я протестував понад 90% популярних текстових моделей світу. Крім того, я розробив свою <strong>особисту мережу автономних ІІ-асистентів</strong>. Це моя «зовнішня пам'ять»: вони акуратно записують події мого життя, сни, спогади, помилки та позитивні емоції, структурують їх і допомагають мені бути максимально продуктивним.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flat Vector Line Divider from Design Folder -->
+          <div class="design-line-illustration">
+            <img class="design-line-img" src="assets/design/6570d904152cf792735ef8d2_line.webp" alt="" aria-hidden="true" />
+          </div>
+
+          <!-- Vibe Coding Philosophy Quote -->
+          <div class="quote-section">
+            <div class="quote-box">
+              <span class="quote-icon">“</span>
+              <p class="quote-text">
+                У світі щодня виходять космічні інновації у ракетобудуванні чи медицині, але я не можу доторкнутися до них. А ось генерація коду, ШІ, нейромережі та вейп-кодинг — це технології, які виходять сьогодні, і ти одразу можеш взяти та помацати їх руками. Це неймовірне відчуття руху в ногу з часом!
+              </p>
+              <span class="quote-author">@djestick — Філософія Vibe Coding</span>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="next-section" aria-label="Next section"></section>
-    </main>
+      <!-- 4. PROJECTS SHOWCASE SECTION -->
+      <section id="projects" class="section-padding">
+        <div class="container">
+          <h2 class="section-title center main-title text-center">Мої Роботи</h2>
+          
+          <!-- Projects Categorization Filter Bar -->
+          <div class="projects-filter-bar">
+            <button class="filter-btn active" data-filter="all">Всі проекти</button>
+            <button class="filter-btn" data-filter="Desktop Tool / Windows Customizer, Desktop App / CS:GO & CS2 Overlay Manager, Desktop / Tournament Dashboard, Desktop / Financial Billing App">Десктопні програми</button>
+            <button class="filter-btn" data-filter="Web Application / Life Gamification, AI Web Application / Assistant, Web / Club Event Platform, Web / Creative Portfolio Page, Web / Product Showcase, Web Application / Creative Lab">Веб-додатки</button>
+            <button class="filter-btn" data-filter="Chrome Extension / Web Utility">Розширення</button>
+          </div>
 
+          <!-- Grid Projects Container (Populated dynamically) -->
+          <div class="_3-col-grid" id="projectsGrid">
+            <!-- Dynamic project cards will render here -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Page Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 @djestick (Святослав). Побудовано за допомогою Vibe Coding та ІІ-оркестрації.</p>
+        <p>Дизайн на основі оригінальних макетів <a href="brandbook.html">Designly</a>.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="projects_data.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nekto.me Skipper & Ukrainizator | @djestick - Проект</title>
+    <meta name="description" content="Розширення для чату Nekto.me з автопропуском та повною українізацією." />
+    <meta name="author" content="Sviatoslav (djestick)" />
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Nekto.me Skipper & Ukrainizator | @djestick" />
+    <meta property="og:description" content="Розширення для чату Nekto.me з автопропуском та повною українізацією." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../assets/design/Frame 2.webp" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/e7fe06ee-a764-46c6-b61b-ad6252634b31_Dhcj4Nj2TVi22B2bkeN7-s2fnku5c091aB1jA.webp" type="image/webp" />
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="project-detail-page">
+    <!-- Premium Flat Navigation Bar -->
+    <header class="nav-header">
+      <div class="container nav-container">
+        <a href="../index.html" class="logo-brand">
+          djestick
+        </a>
+        <div class="nav-right">
+          <nav>
+            <ul class="nav-menu">
+              <li><a href="../index.html#biography" class="nav-link">Біографія</a></li>
+              <li><a href="../index.html#projects" class="nav-link active">Проекти</a></li>
+              <li><a href="../brandbook.html" class="nav-link">Брендбук</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="project-page-content">
+      <div class="container">
+        <!-- Breadcrumbs -->
+        <div class="breadcrumbs">
+          <a href="../index.html">Головна</a>
+          <span class="breadcrumb-separator">/</span>
+          <a href="../index.html#projects">Проекти</a>
+          <span class="breadcrumb-separator">/</span>
+          <span class="current-page">Nekto.me Skipper & Ukrainizator</span>
+        </div>
+
+        <!-- Project Intro Details -->
+        <div class="project-intro-section">
+          <span class="project-category-tag">Chrome Extension / Web Utility</span>
+          <h1 class="project-main-title">Nekto.me Skipper & Ukrainizator</h1>
+          <p class="project-intro-tagline">Розширення для чату Nekto.me з автопропуском та повною українізацією.</p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">JavaScript (Chrome Extension API)</span>
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">JSON (I18n)</span>
+          </div>
+        </div>
+
+        <!-- Large Sharp Image -->
+        <div class="project-featured-image-box">
+          <img src="../assets/design/Frame 2.webp" alt="Nekto.me Skipper & Ukrainizator" class="project-featured-image" />
+        </div>
+
+        <!-- Narrative Content Grid (Flat Cards) -->
+        <div class="project-story-grid">
+          <!-- Story Block -->
+          <div class="project-story-card">
+            <h2 class="project-story-card-title">
+              <span class="flat-dot primary"></span> Як все починалося (Сторi)
+            </h2>
+            <p class="project-story-card-text">Популярний анонімний чат Nekto.me переповнений ботами та нецікавими співрозмовниками. Доводиться постійно клікати кнопку «пропустити». Плюс інтерфейс сервісу повністю російськомовний. Мені захотілося виправити обидві проблеми одним махом — написати розширення для Chrome, яке автоматизує рутину та перекладає сайт українською.</p>
+          </div>
+
+          <!-- Challenges Block -->
+          <div class="project-story-card">
+            <h2 class="project-story-card-title accent-violet">
+              <span class="flat-dot violet"></span> Виклики & Складні моменти
+            </h2>
+            <p class="project-story-card-text">Головна складність була в тому, щоб розширення коректно відстежувало події чату (підключення нового користувача, вихід, отримання повідомлень) та вбудовувалося в DOM-структуру сайту, яка часто оновлюється без перезавантаження сторінки.</p>
+          </div>
+
+          <!-- Victory Block -->
+          <div class="project-story-card">
+            <h2 class="project-story-card-title accent-lavender">
+              <span class="flat-dot lavender"></span> Фінальна Перемога
+            </h2>
+            <p class="project-story-card-text">Я використав Chrome Extension Content Scripts для впровадження кастомного скрипта, який через `MutationObserver` стежить за змінами в інтерфейсі чату. Коли співрозмовник мовчить або відключається, скрипт автоматично ініціює перехід до наступного чату, а локальний JSON-файл перекладу на льоту замінює весь текст сайту на солов'їну.</p>
+          </div>
+        </div>
+
+        <!-- Links Bar -->
+        <div class="project-links-bar">
+          <a href="https://github.com/djestick/nekto.me-skipper" target="_blank" rel="noopener noreferrer" class="brand-btn primary">
+            Перейти на GitHub
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="brand-btn secondary">
+            Відкрити Live Demo
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Page Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 @djestick (Святослав). Побудовано за допомогою Vibe Coding та ІІ-оркестрації.</p>
+        <p>Дизайн на основі оригінальних макетів <a href="../brandbook.html">Designly</a>.</p>
+      </div>
+    </footer>
+  </body>
+</html>

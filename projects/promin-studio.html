@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Promin Studio (OpenHUD Manager Fork) | @djestick - Проект</title>
+    <meta name="description" content="Кастомний менеджер HUD та оверлеїв для кіберспортивних трансляцій CS." />
+    <meta name="author" content="Sviatoslav (djestick)" />
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Promin Studio (OpenHUD Manager Fork) | @djestick" />
+    <meta property="og:description" content="Кастомний менеджер HUD та оверлеїв для кіберспортивних трансляцій CS." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../assets/design/Screenshot 2026-05-20 at 23-19-35  Admin Panels Design Designly.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/e7fe06ee-a764-46c6-b61b-ad6252634b31_Dhcj4Nj2TVi22B2bkeN7-s2fnku5c091aB1jA.webp" type="image/webp" />
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="project-detail-page">
+    <!-- Premium Flat Navigation Bar -->
+    <header class="nav-header">
+      <div class="container nav-container">
+        <a href="../index.html" class="logo-brand">
+          djestick
+        </a>
+        <div class="nav-right">
+          <nav>
+            <ul class="nav-menu">
+              <li><a href="../index.html#biography" class="nav-link">Біографія</a></li>
+              <li><a href="../index.html#projects" class="nav-link active">Проекти</a></li>
+              <li><a href="../brandbook.html" class="nav-link">Брендбук</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="project-page-content">
+      <div class="container">
+        <!-- Breadcrumbs -->
+        <div class="breadcrumbs">
+          <a href="../index.html">Головна</a>
+          <span class="breadcrumb-separator">/</span>
+          <a href="../index.html#projects">Проекти</a>
+          <span class="breadcrumb-separator">/</span>
+          <span class="current-page">Promin Studio (OpenHUD Manager Fork)</span>
+        </div>
+
+        <!-- Project Intro Details -->
+        <div class="project-intro-section">
+          <span class="project-category-tag">Desktop App / CS:GO & CS2 Overlay Manager</span>
+          <h1 class="project-main-title">Promin Studio (OpenHUD Manager Fork)</h1>
+          <p class="project-intro-tagline">Кастомний менеджер HUD та оверлеїв для кіберспортивних трансляцій CS.</p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">Electron</span>
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Socket.io</span>
+          <span class="tech-tag">Express</span>
+          <span class="tech-tag">SQLite3</span>
+          <span class="tech-tag">Playwright</span>
+          <span class="tech-tag">Tailwind CSS</span>
+          </div>
+        </div>
+
+        <!-- Large Sharp Image -->
+        <div class="project-featured-image-box">
+          <img src="../assets/design/Screenshot 2026-05-20 at 23-19-35  Admin Panels Design Designly.png" alt="Promin Studio (OpenHUD Manager Fork)" class="project-featured-image" />
+        </div>
+
+        <!-- Narrative Content Grid (Flat Cards) -->
+        <div class="project-story-grid">
+          <!-- Story Block -->
+          <div class="project-story-card">
+            <h2 class="project-story-card-title">
+              <span class="flat-dot primary"></span> Як все починалося (Сторi)
+            </h2>
+            <p class="project-story-card-text">Це форк відомого менеджера OpenHUD. Мені потрібно було зробити його швидшим, стабільнішим та зручнішим для режисерів трансляцій CS:GO/CS2. Я хотів створити інтерфейс, який дозволяв би керувати оверлеями та HUD-ами «на льоту» під час живого ефіру, не боячись, що все впаде в найвідповідальніший момент.</p>
+          </div>
+
+          <!-- Challenges Block -->
+          <div class="project-story-card">
+            <h2 class="project-story-card-title accent-violet">
+              <span class="flat-dot violet"></span> Виклики & Складні моменти
+            </h2>
+            <p class="project-story-card-text">Найбільший виклик — синхронізація даних гри в реальному часі через Game State Integration (GSI) без затримок. Кожна секунда затримки в трансляції — це катастрофа. Крім того, потрібно було реалізувати вибір монітора для виведення оверлею та регулювання його розміру прямо з вікна менеджера.</p>
+          </div>
+
+          <!-- Victory Block -->
+          <div class="project-story-card">
+            <h2 class="project-story-card-title accent-lavender">
+              <span class="flat-dot lavender"></span> Фінальна Перемога
+            </h2>
+            <p class="project-story-card-text">Я побудував архітектуру на Socket.io для миттєвого обміну повідомленнями між сервером Express (який парсить дані CS GSI) та клієнтом React. Інтегрував SQLite для збереження налаштувань матчів та написав модуль керування вікнами Electron, який дозволяє перетягувати та масштабувати оверлей на будь-який підключений екран в один клік.</p>
+          </div>
+        </div>
+
+        <!-- Links Bar -->
+        <div class="project-links-bar">
+          <a href="https://github.com/djestick/promin-studio" target="_blank" rel="noopener noreferrer" class="brand-btn primary">
+            Перейти на GitHub
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="brand-btn secondary">
+            Відкрити Live Demo
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Page Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 @djestick (Святослав). Побудовано за допомогою Vibe Coding та ІІ-оркестрації.</p>
+        <p>Дизайн на основі оригінальних макетів <a href="../brandbook.html">Designly</a>.</p>
+      </div>
+    </footer>
+  </body>
+</html>
