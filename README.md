@@ -9,6 +9,12 @@
   </a>
 </p>
 
+<!-- Portfolio Badge Button -->
+<p align="center">
+  <a href="https://djestick-about-portfolio.web.app/" target="_blank">
+    <img src="https://img.shields.io/badge/💼%20My%20Portfolio-djestick--about--portfolio.web.app-0e75b6?style=for-the-badge&logo=react&logoColor=white" alt="My Portfolio" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=djestick">
