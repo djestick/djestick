@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&amp;display=swap');
+      .title {
+        font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+        font-weight: 900;
+        fill: #C8FF00;
+        font-size: 24px;
+        letter-spacing: 0.5px;
+      }
+      .desc {
+        font-family: system-ui, -apple-system, sans-serif;
+        font-size: 13px;
+        fill: #8D8AA8;
+        font-weight: 500;
+      }
+      .btn-text {
+        font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+        font-weight: 900;
+        font-size: 12px;
+        fill: #000000;
+        letter-spacing: 1px;
+      }
+    </style>
+  </defs>
+
+  <!-- Neobrutalist Shadow -->
+  <rect x="10" y="10" width="780" height="140" rx="12" fill="#000000" />
+  
+  <!-- Main Card -->
+  <rect x="2" y="2" width="780" height="140" rx="12" fill="#181721" stroke="#000000" stroke-width="4" />
+
+  <!-- Info Group -->
+  <g transform="translate(40, 42)">
+    <text x="0" y="0" class="title">SUPPORT MY CREATIVITY 💸</text>
+    <text x="0" y="24" class="desc">If you like my projects, consider supporting my Monobank Jar.</text>
+    <text x="0" y="42" class="desc">Every donation fuels more creative design and web development experiments!</text>
+
+    <!-- Support Button (Fake button inside SVG, the whole SVG will be wrapped in a link) -->
+    <g transform="translate(0, 60)">
+      <rect x="5" y="5" width="220" height="32" rx="6" fill="#000000" />
+      <rect x="0" y="0" width="220" height="32" rx="6" fill="#8F93FF" stroke="#000000" stroke-width="2.5" />
+      <text x="110" y="20" class="btn-text" text-anchor="middle">DONATE VIA MONOBANK</text>
+    </g>
+  </g>
+
+  <!-- Jar Illustration (Neobrutalist Vector Art) -->
+  <g transform="translate(640, 20)">
+    <!-- Shadow -->
+    <rect x="12" y="15" width="70" height="95" rx="15" fill="#000000" />
+    <!-- Jar Body -->
+    <rect x="4" y="7" width="70" height="95" rx="15" fill="#181721" stroke="#F0F0FF" stroke-width="3" />
+    
+    <!-- Jar Lid Shadow -->
+    <rect x="19" y="0" width="40" height="12" rx="3" fill="#000000" />
+    <!-- Jar Lid -->
+    <rect x="15" y="-4" width="40" height="12" rx="3" fill="#C8FF00" stroke="#000000" stroke-width="3" />
+    
+    <!-- Coins in the Jar -->
+    <circle cx="28" cy="72" r="10" fill="#B545FF" stroke="#000000" stroke-width="2" />
+    <circle cx="48" cy="78" r="10" fill="#C8FF00" stroke="#000000" stroke-width="2" />
+    <circle cx="38" cy="85" r="10" fill="#8F93FF" stroke="#000000" stroke-width="2" />
+    
+    <!-- Mono Label on Jar -->
+    <rect x="19" y="32" width="40" height="20" rx="4" fill="#FFFFFF" stroke="#000000" stroke-width="2" />
+    <text x="39" y="46" font-family="'Montserrat', sans-serif" font-size="10" font-weight="900" fill="#000000" text-anchor="middle">mono</text>
+
+    <!-- Falling Coin -->
+    <circle cx="39" cy="-25" r="8" fill="#C8FF00" stroke="#000000" stroke-width="2" transform="rotate(-15)" />
+  </g>
+</svg>
