@@ -38,9 +38,6 @@
 ---
 
 
-<!-- Footer line -->
----
-
 <p align="center">
   <a href="https://send.monobank.ua/jar/6cSkmWzhNV" target="_blank">
     <img src="https://img.shields.io/badge/💸%20Support%20via-Monobank-0e75b6?style=for-the-badge" alt="Donate Monobank" />
