@@ -3,23 +3,14 @@
   <img src="assets/header.svg" width="800" alt="Sviatoslav | djestick Header"/>
 </p>
 
-<<<<<<< HEAD
+<!-- Typing SVG -->
 <p align="center">
   <a href="https://github.com/djestick">
-    <img src="https://readme-typing-svg.herokuapp.com?duration=2500&pause=700&center=true&vCenter=true&width=650&lines=Born+on+31.01.2006;Graphic+Designer+%C2%B7+Figma+Enthusiast;Freelance+projects+always+open;Contact:+@djestick+(any+social+platform)" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&color=8F93FF&size=20&duration=2500&pause=700&center=true&vCenter=true&width=650&lines=Born+on+31.01.2006;Graphic+Designer+%C2%B7+Figma+Enthusiast;Freelance+projects+always+open;Contact:+@djestick+(any+social+platform)" alt="Typing SVG"/>
   </a>
 </p>
 
-<!-- Portfolio Badge Button -->
-<p align="center">
-  <a href="https://djestick-about-portfolio.web.app/" target="_blank">
-    <img src="https://img.shields.io/badge/💼%20My%20Portfolio-djestick--about--portfolio.web.app-0e75b6?style=for-the-badge&logo=react&logoColor=white" alt="My Portfolio" />
-  </a>
-</p>
-
-=======
 <!-- Neobrutalist Stats Badges -->
->>>>>>> нови
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=djestick">
     <img src="https://komarev.com/ghpvc/?username=djestick&label=Profile%20views&color=8f93ff&style=flat-square" alt="views"/>
@@ -39,16 +30,6 @@
   </a>
 </p>
 
-<<<<<<< HEAD
----
-<!-- Portfolio Banner Button -->
-<p align="center">
-  <a href="https://djestick-about-portfolio.web.app/" target="_blank">
-    <img src="https://capsule-render.vercel.app/api?type=soft&height=80&color=0:0e75b6,100:111827&text=🌐%20Explore%20My%20Portfolio%20🚀&fontColor=ffffff&fontSize=24&desc=djestick-about-portfolio.web.app&descAlignY=70&descAlign=center&descSize=12" alt="My Portfolio" />
-  </a>
-</p>
-
-=======
 <!-- About Me Card -->
 <p align="center">
   <img src="assets/about_me.svg" width="800" alt="About Me Details" />
@@ -56,7 +37,7 @@
 
 <br>
 
-<h3 align="center">🛠️ Tech Stack &amp; Tools</h3>
+<h3 align="center" style="font-family: 'Montserrat', sans-serif; font-weight: 900; color: #F0F0FF;">🛠️ Tech Stack &amp; Tools</h3>
 
 <!-- Neobrutalist-style Table Container for Skills -->
 <div align="center">
@@ -73,7 +54,7 @@
 <hr style="border: 2px solid #000000;" />
 <br>
 
-<h3 align="center">📊 Stats &amp; Activity</h3>
+<h3 align="center" style="font-family: 'Montserrat', sans-serif; font-weight: 900; color: #F0F0FF;">📊 Stats &amp; Activity</h3>
 
 <!-- Stats Grid Container -->
 <div align="center">
@@ -109,7 +90,6 @@
 <br>
 
 <!-- Support Monobank Jar -->
->>>>>>> нови
 <p align="center">
   <a href="https://send.monobank.ua/jar/6cSkmWzhNV" target="_blank">
     <img src="assets/monobank_jar.svg" width="800" alt="Support via Monobank" />
