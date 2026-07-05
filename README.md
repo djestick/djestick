@@ -37,21 +37,6 @@
 
 ---
 
-### Stats & Activity
-<div align="center">
-
-<!-- Top Languages -->
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs?username=djestick&layout=compact&show_icons=true&theme=transparent" alt="Top Langs"/>
-
-<!-- Profile Stats -->
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=djestick&show_icons=true&theme=transparent&rank_icon=github" alt="GitHub Stats"/>
-
-</div>
-
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=djestick&theme=github-compact&hide_border=true" alt="activity graph"/>
-</p>
 
 <!-- Footer line -->
 ---
