@@ -32,7 +32,12 @@
 <br>
 
 <h3 align="center" style="font-family: 'Montserrat', sans-serif; font-weight: 900; color: #F0F0FF;">🛠️ Tech Stack &amp; Tools</h3>
-
+<!-- Support Monobank Jar -->
+<p align="center">
+  <a href="https://send.monobank.ua/jar/6cSkmWzhNV" target="_blank">
+    <img src="assets/monobank_jar.svg" width="800" alt="Support via Monobank" />
+  </a>
+</p>
 <!-- Neobrutalist-style Table Container for Skills -->
 <div align="center">
   <table border="4" cellpadding="15" cellspacing="0" style="border-collapse: collapse; border: 4px solid #000000; background-color: #181721; margin: 0 auto;">
@@ -48,25 +53,6 @@
 <hr style="border: 2px solid #000000;" />
 <br>
 
-<h3 align="center" style="font-family: 'Montserrat', sans-serif; font-weight: 900; color: #F0F0FF;">📊 Stats &amp; Activity</h3>
-
-<!-- Stats Grid Container -->
-<div align="center">
-  <table border="4" cellpadding="10" cellspacing="0" style="border-collapse: collapse; border: 4px solid #000000; background-color: #181721;">
-    <tr>
-      <!-- Top Languages Card -->
-      <td align="center" style="border-right: 4px solid #000000;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=djestick&layout=compact&show_icons=true&bg_color=181721&border_color=181721&title_color=c8ff00&text_color=f0f0ff&icon_color=8f93ff&hide_border=true" height="165" alt="Top Langs" />
-      </td>
-      <!-- General Stats Card -->
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=djestick&show_icons=true&bg_color=181721&border_color=181721&title_color=c8ff00&text_color=f0f0ff&icon_color=8f93ff&rank_icon=github&hide_border=true" height="165" alt="GitHub Stats" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br>
 
 <!-- Activity Graph -->
 <div align="center">
@@ -79,13 +65,4 @@
   </table>
 </div>
 
-<br>
-<hr style="border: 2px solid #000000;" />
-<br>
 
-<!-- Support Monobank Jar -->
-<p align="center">
-  <a href="https://send.monobank.ua/jar/6cSkmWzhNV" target="_blank">
-    <img src="assets/monobank_jar.svg" width="800" alt="Support via Monobank" />
-  </a>
-</p>
