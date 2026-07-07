@@ -1,14 +1,3 @@
-<!-- Profile Header Banner -->
-<p align="center">
-  <img src="assets/header.svg" width="800" alt="Sviatoslav | djestick Header"/>
-</p>
-
-<!-- Typing SVG -->
-<p align="center">
-  <a href="https://github.com/djestick">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&color=8F93FF&size=20&duration=2500&pause=700&center=true&vCenter=true&width=650&lines=Born+on+31.01.2006;Graphic+Designer+%C2%B7+Figma+Enthusiast;Freelance+projects+always+open;Contact:+@djestick+(any+social+platform)" alt="Typing SVG"/>
-  </a>
-</p>
 
 <!-- Neobrutalist Stats Badges -->
 <p align="center">
@@ -21,6 +10,11 @@
   <a href="https://github.com/djestick">
     <img alt="stars" src="https://img.shields.io/github/stars/djestick?affiliations=OWNER%2CCOLLABORATOR&style=flat-square&color=c8ff00&labelColor=000000">
   </a>
+</p>
+
+<!-- Profile Header Banner -->
+<p align="center">
+  <img src="assets/header.svg" width="800" alt="Sviatoslav | djestick Header"/>
 </p>
 
 <!-- Clickable Portfolio Card -->
