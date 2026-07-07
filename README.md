@@ -30,14 +30,15 @@
 </p>
 
 <br>
-
-<h3 align="center" style="font-family: 'Montserrat', sans-serif; font-weight: 900; color: #F0F0FF;">🛠️ Tech Stack &amp; Tools</h3>
 <!-- Support Monobank Jar -->
 <p align="center">
   <a href="https://send.monobank.ua/jar/6cSkmWzhNV" target="_blank">
     <img src="assets/monobank_jar.svg" width="800" alt="Support via Monobank" />
   </a>
 </p>
+
+<h3 align="center" style="font-family: 'Montserrat', sans-serif; font-weight: 900; color: #F0F0FF;">🛠️ Tech Stack &amp; Tools</h3>
+
 <!-- Neobrutalist-style Table Container for Skills -->
 <div align="center">
   <table border="4" cellpadding="15" cellspacing="0" style="border-collapse: collapse; border: 4px solid #000000; background-color: #181721; margin: 0 auto;">
@@ -48,11 +49,6 @@
     </tr>
   </table>
 </div>
-
-<br>
-<hr style="border: 2px solid #000000;" />
-<br>
-
 
 <!-- Activity Graph -->
 <div align="center">
